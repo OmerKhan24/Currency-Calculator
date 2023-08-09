@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background: #221f2f;
+    overflow: hidden;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: #ed2ff0;
+    left: 15%;
+    top: 20%;
+    filter: blur(150px);
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: #22a8cd;
+    left: 80%;
+    top: 74%;
+    filter: blur(150px);
+}
+
+::selection{
+    color: #fff;
+    background-color: #675afe;
+}
+
+.wrapper{
+    width: 500px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.44);
+    padding: 20px 30px;
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #fff;
+}
+
+.wrapper h2{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+}
+
+.wrapper form{
+    margin: 30px 0 20px 0;
+}
+
+form :where(input,select,button){
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+form p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input{
+    height: 50px;
+    font-size: 18px;
+    padding: 0 14px;
+    border: 1px solid #999;
+    background: transparent;
+    color: #fff;
+    transition: 0.5s;
+}
+
+form input:hover{
+    border: 1px solid #675afe;
+}
+
+form input:focus{
+    padding: 0 14px;
+    border: 2px solid #0083b0;
+}
+
+form .drop-list{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drop-list .select-box{
+    display: flex;
+    width: 175px;
+    height: 45px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    border: 1px solid #999;
+}
+
+.select-box img{
+    max-width: 29px;
+}
+
+.select-box select{
+    width: auto;
+    font-size: 15px;
+    background: none;
+    margin: 0 -5px 0 5px;
+    color: #fff;
+    background: black;
+}
+
+.select-box select::-webkit-scrollbar{
+    width: 10px;
+    color: black;
+    background: black;
+}
+
+.select-box select::-webkit-scrollbar-track{
+    background: #000;
+    color: black;
+
+}
+
+.select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 5px;
+    border-right: 2px solid #0000;
+}
+
+.drop-list .icon{
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+form .exchange-rate{
+    border: 1px dotted gray;
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 20px 0 30px;
+}
+
+form button{
+    height: 52px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    background: #00b4db;
+    transition: 0.5s;
+}
+
+form button:hover{
+    background: #675afe;
+}
+
+@media(max-width: 700px){
+    .wrapper{
+        width: 370px;
+    }
+
+    .drop-list .select-box{
+        width: 115px;
+        height: 45px;
+    }
+}

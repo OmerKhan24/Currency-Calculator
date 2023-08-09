@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4fa276819d.js" crossorigin="anonymous"></script>
+    <title>Currency Calculator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+            <h2>Currency Converter</h2>
+            <form action="#">
+                <div class="amount">
+                    <input type="text" value="1" placeholder="Enter amount">
+                </div>
+
+                <div class="drop-list">
+                    <div class="from">
+                        <p>From</p>
+                        <div class="select-box">
+                            <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                            <select> <!--From JAvascrpt--> </select>
+                        </div>
+                    </div>
+                    <div class="icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+                    <div class="to">
+                        <p>To</p>
+                        <div class="select-box">
+                            <img src="https://flagsapi.com/PK/flat/64.png" alt="flag">
+                            <select> <!--From JAvascrpt--> </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exchange-rate">Getting exchange rate...</div>
+                <button>Get Exchange Rate</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="country-list.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
