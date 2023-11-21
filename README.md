@@ -8,6 +8,16 @@ A web-based currency converter that allows users to quickly and easily convert c
 - **Real-Time Exchange Rate:** Retrieve real-time exchange rates for accurate currency conversion.
 - **Flag Icons:** Visual representation of currency selection with flag icons.
 
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/OmerKhan24/currency-calculator.git
+2. Open the project in your preferred code editor or directly in a web browser.
+
+3. Customize the project as needed.
+
 ## Usage
 
 1. Open the `index.html` file in your web browser.
@@ -21,24 +31,14 @@ A web-based currency converter that allows users to quickly and easily convert c
 - [Font Awesome](https://fontawesome.com/): Used for arrow icon and flag icons.
 - [Flags API](https://flagsapi.com/): Provides flag images for currency selection.
 
-## Installation
+## Attribution
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/OmerKhan24/currency-calculator.git
-2. Open the project in your preferred code editor or directly in a web browser.
-
-3. Customize the project as needed.
+- The currency conversion functionality in this project relies on the [ExchangeRate-API](https://www.exchangerate-api.com/) for real-time exchange rate data. We appreciate their service in providing accurate and up-to-date currency conversion information.
+- Flag icons by [Flags API](https://flagsapi.com/). We appreciate their service in providing flag images for different countries.
 
 ## License
 
 This project is licensed under the MIT License- see the [LICENSE.md](https://github.com/OmerKhan24/Currency-Calculator/blob/main/LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Flag icons by [Flags API](https://flagsapi.com/).
-- Currency data provided by [ExchangeRate-API](https://www.exchangerate-api.com/).
 
   Feel free to contribute, report issues, or suggest improvements!
 
