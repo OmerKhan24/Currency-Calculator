@@ -38,7 +38,7 @@ A web-based currency converter that allows users to quickly and easily convert c
 
 ## License
 
-This project is licensed under the GNU GENERAL PUBLIC LICENSE License- see the [LICENSE.md](https://github.com/OmerKhan24/Currency-Calculator/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License- see the [LICENSE.md](https://github.com/OmerKhan24/Currency-Calculator/blob/main/LICENSE) file for details.
 
   Feel free to contribute, report issues, or suggest improvements!
 
